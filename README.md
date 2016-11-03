@@ -2,8 +2,8 @@
 Wordpress Plugin Add for the Advanced Custom Fields Table Field
 
 ###Requirements
- - Wordpress (Duh)
- - Advanced Custom Fields
+ - [Wordpress](https://www.wordpress.com/) (Duh)
+ - [Advanced Custom Fields](https://www.advancedcustomfields.com/)
  - [ACF Table Fields Plugin](https://wordpress.org/plugins/advanced-custom-fields-table-field/)
  
 ###WARNING!
