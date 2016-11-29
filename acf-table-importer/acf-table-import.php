@@ -34,7 +34,7 @@ function acf_ti_admin_action()
 
   $redirect = $_SERVER['HTTP_REFERER'];
   $data = acf_ti_csv_to_array( $_FILES['acf_ti_file']['tmp_name'], $_POST['acf_ti_delimiter'] );
-//  print_r($data);die;
+
   if( !empty( $data ) && is_array( $data ) && !empty( $_POST['acf_ti_field_name'] ) ) {
 
     //clean empty data option

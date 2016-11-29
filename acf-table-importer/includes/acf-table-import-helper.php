@@ -66,7 +66,7 @@ function acf_ti_set_header( $table, $data )
 
   foreach ( $headers as $header ) {
     $table['c'][] = ['p' => ''];
-    $table['h'][] = ['c' => $header];
+    $table['h'][] = ['c' => (string)$header];
   }
 
   return $table;
